@@ -18,11 +18,11 @@ public class AspectL {
 
     @Before("defineEntryPoint()")
     public void aaa(JoinPoint joinPoint) {
-        System.out.println("aspect before");
+//        System.out.println("aspect before");
     }
 
     @After("defineEntryPoint()")
     public void bbb(JoinPoint joinPoint) {
-        System.out.println("aspect after");
+//        System.out.println("aspect after");
     }
 }
